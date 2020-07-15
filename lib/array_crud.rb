@@ -42,6 +42,6 @@ end
 
 def update_element_from_index(array, index_number, element)
 item =  array[index_number]
-
+item[index_number](element)
 
 end
