@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def create_an_empty_array
   []
@@ -46,7 +46,3 @@ element = array[index_number]
 
 
 end
-
-binding.pry 
-
-puts "hello"
