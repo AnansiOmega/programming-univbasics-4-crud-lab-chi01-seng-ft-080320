@@ -1,4 +1,4 @@
-
+require 'pry'
 
 def create_an_empty_array
   []
@@ -45,3 +45,6 @@ index = array[index_number]
 array[index](element)
 end
 
+binding.pry 
+
+puts "hello"
